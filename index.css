@@ -23,11 +23,12 @@ body {
 .result-summary-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   border-radius: 2rem;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  width: 90%
+  width: 100%
 
 }
 
@@ -35,10 +36,10 @@ body {
   background-image: linear-gradient(hsl(241, 81%, 54%),hsl(252, 100%, 67%));
   text-align: center;
   color: hsl(0, 0%, 100%);
-  width: 90%;
+  width: 100%;
   border-radius: 2rem;
   padding: 1em 2em;
-  min-height: 250px;
+  min-height: 330px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -71,14 +72,17 @@ body {
   font-size: 1.5rem;
   font-weight:700;
 }
+
 .result-sentence {
   margin-bottom: 1em;
   font-size: 0.8rem;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .summary {
   background-color: white;
-  min-height: 250px;
+  min-height: 330px;
   width: 90%;
   border-radius: 2rem;
   padding: 1em 2em 0 1em;
@@ -151,5 +155,8 @@ body {
   .results, .summary {
     width: 50%;
 
+  }
+  .result-sentence {
+    width:80%
   }
 }
