@@ -25,9 +25,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
   background-color: white;
-
   width: 100%
 }
 
@@ -43,9 +41,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
-
-
 
 .result-score{
   display: grid;
@@ -139,10 +134,12 @@ body {
   border-radius: 24px;
   font-size: 0.75rem;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  margin: 1.5em 0;
+  margin: 0;
+  margin-top: 3em;
+
 }
 
-@media (min-width: 400px) {
+@media (min-width: 615px) {
 
   .result-summary-container {
     flex-direction: row;
@@ -154,7 +151,7 @@ body {
   }
 
   .results, .summary {
-    width: 50%;
+    width: 47%;
 
   }
   .result-sentence {
@@ -163,4 +160,5 @@ body {
   .results {
     border-radius: 2rem;
   }
+
 }
